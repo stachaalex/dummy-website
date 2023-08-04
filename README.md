@@ -34,6 +34,7 @@ function handleVisibilityChange() {
 
 // Add an event listener to the visibilitychange event
 document.addEventListener('visibilitychange', handleVisibilityChange);
+```
 
 ## How to test
 
