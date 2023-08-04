@@ -34,3 +34,11 @@ function handleVisibilityChange() {
 
 // Add an event listener to the visibilitychange event
 document.addEventListener('visibilitychange', handleVisibilityChange);
+
+## How to test
+
+To test the Page Visibility API function, you can follow these steps:
+
+1. Open index HTML file in a web browser.
+
+3. Open the browser's developer console. You should see console log messages indicating whether the user has returned to or left the tab as you switch between the browser tab and other applications.
