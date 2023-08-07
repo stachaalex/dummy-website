@@ -21,6 +21,17 @@
 
         // Add an event listener to the visibilitychange event
         document.addEventListener('visibilitychange', handleVisibilityChange);
+
+
+        // Additional event listeners for blur and focus
+        window.addEventListener('blur', function() {
+            console.log('Window lost focus (another browser/app opened)');
+        });
+
+        window.addEventListener('focus', function() {
+            console.log('Window regained focus (back to your website)');
+        });
+        
     </script>
 </body>
 </html>
